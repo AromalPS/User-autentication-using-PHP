@@ -14,5 +14,4 @@ if($password == $row['password']){
     echo "<script type='text/javascript'>window.history.go(-1)</script>";
 }
 $_SESSION['id'] = $row['id'];
-echo $_SESSION['id'];
 ?>
