@@ -12,4 +12,6 @@ $user_signup_query = "INSERT INTO `users1` (`id`, `name`, `email`, `year`, `coll
 $user_signup_result = mysqli_query($con,$user_signup_query) or die(mysqli_error($con));
 echo "<script type='text/javascript'>alert('Signup Successful')</script>";
 echo "<script type='text/javascript'>window.history.go(-1)</script>";
+$_SESSION['id'] = mysqli_insert_id($con);
+header('location:index.php');
 ?>
