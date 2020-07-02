@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-offset-4 col-md-4">
             <h3>SignUP</h3>
-            <form method="post" action="user.php">
+            <form method="post" action="signup_script.php">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" class="form-control" name="name" required="true">

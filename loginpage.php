@@ -19,7 +19,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Login</button>
             </form>
-            <p>If you have'nt registered <a href="index.php">click here</a> to go to Signup page</p>
+            <p>If you have'nt registered <a href="signup.php">click here</a> to go to Signup page</p>
         </div>
     </div>
 </div>

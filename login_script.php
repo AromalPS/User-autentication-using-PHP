@@ -1,6 +1,5 @@
 <?php
-$con = mysqli_connect('localhost','root','','user')
-    or die(mysqli_error($con));
+include 'common.php';
 
 $email = $_POST['email'];
 $password = $_POST['password'];
