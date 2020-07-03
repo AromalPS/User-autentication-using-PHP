@@ -1,5 +1,8 @@
 <?php
 session_start();
+if(!isset($_SESSION['id'])){
+    header('location:index.php');
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -12,9 +15,7 @@ session_start();
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
-    <h1>Welcome to our website</h1>
-    <a href="Signup.php">Signup</a></br>
-    <a href="loginpage.php">Login</a>
+    <h1>Hello</br><i>You are logged in</i></h1>
     <a href="logout.php">logout</a>
   </body>
 </html>
